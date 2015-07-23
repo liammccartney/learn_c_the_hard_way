@@ -26,4 +26,8 @@ First Stage: use it to build programs it already knows how to build
 re: CFLAGS - passing in an environment variable as a modifier on the make process
     `CFLAGS="-Wall" make ex1` passes the cmd line option `-Wall` to the `cc` cmd that `make` normally runs
     `-Wall` says 'report ALL warnings' (apparently that's not all of them though)
+Makefile is a place to define behavior for the `make` command
+`make` expects/assumes there's a file called Makefile and will run it by default
+    you can use a Makefile to set env variables and other tasks
+        - remember `rake`?
 
