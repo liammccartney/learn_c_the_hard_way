@@ -1,3 +1,7 @@
+# Binaries
+*
+!/**/
+!*.*
 # Object files
 *.o
 *.ko
